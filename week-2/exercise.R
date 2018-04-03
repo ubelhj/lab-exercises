@@ -3,7 +3,7 @@
 my_num <- 6
 initials <- "?. ?."
 
-my_vector <- c(my.num, initials)
+my_vector <- c(my_num, initials)
 
 # run ?sum to get more info
 vector_sum <- sum(my_vector)
@@ -20,7 +20,7 @@ print(str_length(my_line))
 # Describe why this doesn't work: 
 # 
 
-said_the_famous <- paste(my.line, " - ", initial)
+said_the_famous <- paste(my_line, " - ", initial)
 
 # Describe why this doesn't work: 
 # 
