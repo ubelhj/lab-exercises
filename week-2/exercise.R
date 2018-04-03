@@ -1,26 +1,26 @@
 ## Part 1: Debugging
 
-my.num <- 6
+my_num <- 6
 initials <- "?. ?."
 
-my.vector <- c(my.num, initials)
+my_vector <- c(my.num, initials)
 
 # run ?sum to get more info
-vector.sum <- sum(my.vector)
+vector_sum <- sum(my_vector)
 
 # Describe why this doesn't work: 
 # 
 
 install.packages("stringr")
 
-my.line <- "Hey, hey, this is the library"
+my_line <- "Hey, hey, this is the library"
 
-print(str_length(my.line))
+print(str_length(my_line))
 
 # Describe why this doesn't work: 
 # 
 
-said.the.famous <- paste(my.line, " - ", initial)
+said_the_famous <- paste(my.line, " - ", initial)
 
 # Describe why this doesn't work: 
 # 
