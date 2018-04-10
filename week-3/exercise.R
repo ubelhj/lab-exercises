@@ -1,30 +1,16 @@
-# Making vectors
+install.packages('iris')
+library(iris)
 
-# What could be an issue here?
-event_capacity <- c(60, 50, '100', 100)
+# Select all values of data frame for Sepal.length
 
-# Fix the possible error in a new variable event_attendance_new
+# Select only rows of Virginica flowers
 
-# Create a vector of event names for each event 
-event_names <- 
-  
-# Fix the error in creating this dataframe
-events <- data.frame(event_names, event_cos, event_profit, event_capacity)
+# Select only the sepal legnth of the Virginica flowers
 
-# Check the event_capacity column
+# Select rows where Petal.Length > 4.0
 
-events$event_capacity
+# Add a column to the dataframe indicating whether Petal.Length > 4.0
 
-# Try with event_capacity_new column
-events <- data.frame(event_names, event_cost, event_profit, event_capacity_new)
+# Find the species type of the flower that has the longest Sepal length
 
-# Are there any differences between event_capacity and event_capacity)_new?
-# Solution
-
-# Fix an error of adding columns to the dataframe
-events.event_attendance <- c(54, 43, 85, 90)
-
-# Add a column called seats_left in the events dataframe
-events$seats_left <-
-
-
+# Select rows where species type is 'setosa' and Sepal.Width > 3.0
