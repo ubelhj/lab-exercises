@@ -1,5 +1,4 @@
-install.packages('iris')
-library(iris)
+iris_df <- data.frame(iris)
 
 # Select all values of data frame for Sepal.length
 
