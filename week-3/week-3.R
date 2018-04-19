@@ -8,8 +8,9 @@ event_capacity <- c(60, 50, '100', 100)
 # Create a vector of event names for each event 
 event_names <- 
   
-  # Fix the error in creating this dataframe
-  events <- data.frame(event_names, event_cost, event_capacity)
+
+# Fix the error in creating this dataframe
+events <- data.frame(event_names, event_cost, event_capacity)
 
 # Check the event_capacity column
 
